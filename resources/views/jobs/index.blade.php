@@ -2,8 +2,6 @@
     <x-slot:heading>
         Job Listing
     </x-slot:heading>
-    Jobs
-    <br>
     <div class="space-y-4">
     @foreach($jobs as $job)
             <a href="/job/{{ $job['id'] }}" class="block ps-4 py-6 border border-gray-200 rounded-lg">
