@@ -55,7 +55,7 @@ class JobController extends Controller
             'salary' => request('salary'),
         ]);
 //    redirect
-        return redirect('/job/'.$job->id);
+        return redirect('/jobs/'.$job->id);
     }
 
     public function destroy(Job $job){
